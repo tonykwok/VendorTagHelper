@@ -5,7 +5,7 @@ _Create your own `VendorTag` using `VendorTagHelper` and that's all!_
 
 # Get Started
 
-Step 1: Defined your own VendorTag in `VendorTags.java`
+Step 1: Defined your own `VendorTag` in `VendorTags.java`
 
 ```java
 public static final CaptureRequestKey<Integer> CONTROL_HDR_MODE = CaptureRequestKey.create(
