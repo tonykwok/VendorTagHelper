@@ -10,11 +10,7 @@ public abstract class VendorTag<K> {
     private final int id;
 
     public VendorTag() {
-        id = generateId();
-    }
-
-    private static int generateId() {
-        return sIdGenerator.getAndIncrement();
+        id = sIdGenerator.getAndIncrement();
     }
 
     public final K getKey() {
